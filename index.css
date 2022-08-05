@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url"./fonts/ABeeZee,Comfortaa,Playfair_Display,Quicksand/Comfortaa/Comfortaa-VariableFont_wght.ttf";
+
+}
+
+* {
+    font-family: "Comfortaa";
+    
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar-header {
+    width: 95%;
+    height: 12vh;
+    background-color: #d6e3f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 17px -1px #000000;
+    border-radius: 10px;
+    
+}
+
+.navbar-ul {
+    display: flex;
+    grid-gap: 80px;
+    list-style: none;
+}
+
+
+.navbar-ul li {
+    font-size: 20px;
+    color: #584b53;
+     
+ 
+}
+
+.img-header {
+    height: 220%;
+}
+
+.section-hero{
+    width: 95%;
+    height: 60vh;
+    background-color: #d6e3f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px -1px #000000;
+         
+}
+
+.container-hero{
+    margin-left: 180px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: #d6e3f8;
+    height: 50%;
+    width: 37%;
+    grid-gap: 20px;
+    color: #584b53;
+    
+}
+
+.img-hero {
+    
+    margin-right: 180px;
+    height: 80%;
+    width: 30%;
+
+}
+
+.container-hero-buttons{
+    display: flex;
+    grid-gap: 20px;
+   
+    
+}
+
+.container-hero-buttons button{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 3px;
+    font-size: 20px;
+    margin-top: 10px;
+    
+   
+    
+}
+    
+.button1 {
+    background-color: #d6e3f8;
+    border-color: #584b53;
+    color: #584b53;
+}
+
+.button2 {
+    background-color: #584b53;
+    border-color: #d6e3f8;
+    color: #d6e3f8;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
